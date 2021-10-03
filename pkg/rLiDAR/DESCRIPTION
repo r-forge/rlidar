@@ -1,7 +1,7 @@
 Package: rLiDAR
 Type: Package
 Title: LiDAR Data Processing and Visualization
-Version: 0.1.4
+Version: 0.1.6
 Authors@R: c(
     person("Carlos Alberto", "Silva", email = "carlos_engflorestal@outlook.com", role = c("aut", "cph", "cre")),
     person("Nicholas L.", "Crookston", role = c("aut", "ctb")),
@@ -25,7 +25,7 @@ Description: Set of tools for reading, processing and visualizing small set of
     LiDAR (Light Detection and Ranging) data for forest inventory applications.
     More details were published in Silva et al. (2016) <doi:10.1080/07038992.2016.1196582>.
 License: GPL (>= 2)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Repository: CRAN
 Repository/R-Forge/Project: rlidar
 NeedsCompilation: no

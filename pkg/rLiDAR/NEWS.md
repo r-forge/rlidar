@@ -1,5 +1,15 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# rLiDAR 0.1.6
+
+* Change http protocol to https for github.io
+
+
+# rLiDAR 0.1.5
+
+* Change dontrun to donttest for long examples
+
+
 # rLiDAR 0.1.4
 
 * Use Authors@R in DESCRIPTION

@@ -11,8 +11,9 @@
 #'@return Returns a list that contains the individual tree canopy boundary polygons and the 4-column matrix with the tree xy coordinates, heights and ground-projected canopy area (with units of square meters).  
 #'@author Carlos Alberto Silva
 #'@examples
-#'\dontrun{
-#'
+#'\donttest{
+#'# This takes > 5s
+#' 
 #'# Import the LiDAR-derived CHM file
 #'data(chm) # or set a CHM. e.g. chm<-raster("CHM_stand.asc") 
 #'

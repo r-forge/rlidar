@@ -22,7 +22,8 @@ Returns a list that contains the individual tree canopy boundary polygons and th
 Delineate and compute ground-projected area of individual tree crowns detected from LiDAR-derived CHM
 }
 \examples{
-\dontrun{
+\donttest{
+# This takes > 5s
 
 # Import the LiDAR-derived CHM file
 data(chm) # or set a CHM. e.g. chm<-raster("CHM_stand.asc") 
