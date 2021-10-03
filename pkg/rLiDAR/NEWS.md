@@ -1,5 +1,10 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# rLiDAR 0.1.4
+
+* Use Authors@R in DESCRIPTION
+
+
 # rLiDAR 0.1.3
 
 * Add reference to relevant paper in DESCRIPTION

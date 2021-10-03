@@ -1,16 +1,15 @@
 Package: rLiDAR
 Type: Package
 Title: LiDAR Data Processing and Visualization
-Version: 0.1.3
-Author: 
-    Carlos A. Silva, 
-    Nicholas L. Crookston,
-    Andrew T. Hudak, 
-    Lee A. Vierling, 
-    Carine Klauberg, 
-    Adrian Cardil,
-    Caio Hamamura
-Maintainer: Carlos A. Silva <carlos_engflorestal@outlook.com>
+Version: 0.1.4
+Authors@R: c(
+    person("Carlos Alberto", "Silva", email = "carlos_engflorestal@outlook.com", role = c("aut", "cph", "cre")),
+    person("Nicholas L.", "Crookston", role = c("aut", "ctb")),
+    person("Andrew T.", "Hudak", role = c("aut", "ctb")),
+    person("Lee A.", "Vierling", role = c("aut", "ctb")),
+    person("Carine", "Klauberg", email = "carine_klauberg@hotmail.com", role = c("aut", "ctb")),
+    person("Adrian", "Cardil", email = "adriancardil@gmail.com", role = c("aut", "ctb")),
+    person("Caio", "Hamamura", email = "caiohamamura@gmail.com", role = c("aut", "ctb"), comment = "Maintenance and review"))
 Depends: R (>= 3.3.2)
 Imports: 
     bitops, 
@@ -24,7 +23,7 @@ Imports:
     spatstat.geom
 Description: Set of tools for reading, processing and visualizing small set of
     LiDAR (Light Detection and Ranging) data for forest inventory applications.
-    References: Silva et al. (2016) <doi:10.1080/07038992.2016.1196582>
+    More details were published in Silva et al. (2016) <doi:10.1080/07038992.2016.1196582>.
 License: GPL (>= 2)
 RoxygenNote: 7.1.1
 Repository: CRAN
