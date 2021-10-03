@@ -1,7 +1,7 @@
 Package: rLiDAR
 Type: Package
 Title: LiDAR Data Processing and Visualization
-Version: 0.1.6
+Version: 0.1.7
 Authors@R: c(
     person("Carlos Alberto", "Silva", email = "carlos_engflorestal@outlook.com", role = c("aut", "cph", "cre")),
     person("Nicholas L.", "Crookston", role = c("aut", "ctb")),
@@ -18,6 +18,7 @@ Imports:
     methods,
     plyr,
     raster,
+    rgeos,
     rgl,
     sp,
     spatstat.geom
