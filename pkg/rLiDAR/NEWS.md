@@ -1,5 +1,10 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# rLiDAR 0.1.8
+
+* forestCAS.R: add library(raster) to example
+
+
 # rLiDAR 0.1.7
 
 * DESCRIPTION: add rgeos to Imports

@@ -24,6 +24,7 @@ Delineate and compute ground-projected area of individual tree crowns detected f
 \examples{
 \donttest{
 # This takes > 5s
+library(raster)
 
 # Import the LiDAR-derived CHM file
 data(chm) # or set a CHM. e.g. chm<-raster("CHM_stand.asc") 
