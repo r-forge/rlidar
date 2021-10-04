@@ -1,20 +1,5 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
-# rLiDAR 0.1.8
-
-* forestCAS.R: add library(raster) to example
-
-
-# rLiDAR 0.1.7
-
-* DESCRIPTION: add rgeos to Imports
-
-
-# rLiDAR 0.1.6
-
-* Change http protocol to https for github.io
-
-
 # rLiDAR 0.1.5
 
 * Change dontrun to donttest for long examples

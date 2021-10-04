@@ -25,7 +25,7 @@ Delineate and compute ground-projected area of individual tree crowns detected f
 \donttest{
 # This takes > 5s
 library(raster)
-
+ 
 # Import the LiDAR-derived CHM file
 data(chm) # or set a CHM. e.g. chm<-raster("CHM_stand.asc") 
 
@@ -48,7 +48,9 @@ canopy<-ForestCAS(chm, loc, maxcrown, exclusion)
 boundaryTrees<-canopy[[1]]
 # Plotting the individual tree canopy boundary over the CHM
 plot(chm, main="LiDAR-derived CHM") 
-plot(boundaryTrees, add=T, border='red', bg='transparent') # adding tree canopy boundary
+ 
+# adding tree canopy boundary
+plot(boundaryTrees, add = TRUE, border = 'red', bg = 'transparent')
 
 #============================================================================#
 # Retrieving the list of individual trees detected for canopy area calculation
@@ -59,7 +61,7 @@ summary(canopyList)     # summary
 # Spatial location of the trees
 library(sp)
 XY<-SpatialPoints(canopyList[,1:2])    # Spatial points
-plot(XY, col="black", add=T, pch="*")  # adding tree location to the plot
+plot(XY, col = "black", add = TRUE, pch = "*")  # adding tree location to the plot
 } 
 }
 \author{
